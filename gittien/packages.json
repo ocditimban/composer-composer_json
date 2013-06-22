@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "modules/rules": {
+            "7.2.3": {
+                "name": "modules/rules",
+                "version": "7.2.3",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/rules.git",
+                    "reference": "7.x-2.3"
+                }
+            },
+            "7.2-dev": {
+                "name": "modules/rules",
+                "version": "7.2-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/rules.git",
+                    "reference": "7.x-2.x"
+                }
+            }
+        },
+        "modules/views": {
+            "7.3.7": {
+                "name": "modules/views",
+                "version": "7.3.7",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/views.git",
+                    "reference": "7.x-3.7"
+                }
+            },
+            "7.3-dev": {
+                "name": "modules/rules",
+                "version": "7.3-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/views.git",
+                    "reference": "7.x-3.x"
+                }
+            }
+        }
+    }
+}

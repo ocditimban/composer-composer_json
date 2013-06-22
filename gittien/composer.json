@@ -1,0 +1,36 @@
+{
+    "require": {
+        "modules/rules": "7.2-dev",
+        "themes/omega": "7.4.0-beta4"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://localhost/modules"
+        },
+	     {
+	         "type": "package",
+	         "package": {
+	             "name": "themes/omega",
+	             "version": "7.3.1",
+	             "source": {
+	                 "url": "http://git.drupal.org/project/omega.git",
+	                 "type": "git",
+	                 "reference": "7.x-3.1"
+	             }
+	          }
+	      },
+	     {
+	         "type": "package",
+	         "package": {
+	             "name": "themes/omega",
+	             "version": "7.4.0-beta4",
+	             "source": {
+	                 "url": "http://git.drupal.org/project/omega.git",
+	                 "type": "git",
+	                 "reference": "7.x-4.0-beta4"
+	             }
+	          }
+	      }
+    ]
+}
