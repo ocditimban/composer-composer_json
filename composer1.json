@@ -1,0 +1,19 @@
+{
+  "require": {
+    "themes/hello": "1.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+         "name": "themes/hello",
+         "version": "1.0",
+         "source": {
+             "url": "https://github.com/ocditimban/monolog1.git",
+             "type": "git",
+             "reference": "becb5d3"
+         }
+      }
+    }
+  ]
+}

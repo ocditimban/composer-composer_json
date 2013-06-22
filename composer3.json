@@ -1,0 +1,44 @@
+{
+    "config": {
+        "vendor-dir": "all/modules"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package":{
+                "name": "views",
+                "version": "1.0",
+                "dist": {
+                    "url": "http://ftp.drupal.org/files/projects/views-7.x-3.7.tar.gz",
+                    "type": "tar"
+                    }
+            	}
+        },
+        {
+          "type": "package",
+          "package": {
+            "name":"omega",
+            "version":"1.0",
+            "dist":{
+              "url":"http://ftp.drupal.org/files/projects/omega-7.x-3.1.tar.gz",
+              "type": "tar"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name":"smarty",
+            "version":"1.0",
+            "dist":{
+              "url":"http://www.smarty.net/files/Smarty-3.1.7.zip",
+              "type": "zip"
+            }
+          }
+        }
+    ],
+    "require": {
+      "omega":"1.0",
+      "smarty":"1.0"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "My Repository",
+  "require-all": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:ocditimban/monolog1.git"
+    }
+  ]
+}
